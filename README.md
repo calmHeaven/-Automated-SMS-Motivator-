@@ -29,7 +29,7 @@ Replace `RECIPIENT_PHONE_NUMBER` with the recipient's phone number and `YOUR_MES
 
 ## Configuration
 
-The application uses Twilio for sending SMS messages. You need to provide your Twilio credentials in the `application.properties` file:
+The application uses Twilio for sending SMS messages. You need to provide your Twilio credentials in the `application.yaml` file which you must create for the program to execute:
 
 ```
 twilio:
